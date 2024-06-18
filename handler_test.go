@@ -12,11 +12,11 @@ import (
 
 	"context"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/location"
-	"github.com/graphql-go/graphql/testutil"
-	"github.com/graphql-go/handler"
+	"github.com/dimandzhi/graphql"
+	"github.com/dimandzhi/graphql/gqlerrors"
+	"github.com/dimandzhi/graphql/language/location"
+	"github.com/dimandzhi/graphql/testutil"
+	"github.com/dimandzhi/handler"
 )
 
 func decodeResponse(t *testing.T, recorder *httptest.ResponseRecorder) *graphql.Result {
