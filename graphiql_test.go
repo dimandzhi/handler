@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/graphql-go/graphql/testutil"
-	"github.com/graphql-go/handler"
+	"github.com/dimandzhi/graphql/testutil"
+	"github.com/dimandzhi/handler"
 )
 
 func TestRenderGraphiQL(t *testing.T) {
